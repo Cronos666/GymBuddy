@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Testing</title>
+    <style>
+      .main{ margin-left: auto; margin-right: auto; text-align: center;}
+    </style>
+  </head>  
+  <body>
+    <div class="main">
+      <div class="input_window">
+        <form id="form1" method="post">
+          <input type="text" id="data1" value="name">     <br>
+          <input type="number" id="data2" value="6">      <br>
+          <input type="number" id="data3" value="6">      <br>
+          <input type="number" id="data4" value="6">      <br>
+          <input type="number" id="data5" value="420">    <br>
+          <button type="submit" onclick="event.preventDefault(); do_the_thing();">ADD</button> <br>
+          <input type="number" id="data6" value="666">    <br>
+          <button type="submit" onclick="event.preventDefault(); calculate();">OK</button> <br>
+        </form>
+        <script src="validate.js"></script>
+        <script src="knapsack.js"></script>
+      </div>
+      <div class="output_window">
+        <p id="out"></p>
+
+      </div>
+    </div>  
+
+  </body>
+</html>
